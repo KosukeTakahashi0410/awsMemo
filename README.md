@@ -93,6 +93,21 @@ sudo service httpd
 
 の後にコマンドを入れてあげると動作するよ  
 
+## linuxについて
+
+```
+sudo
+-> 管理者権限で
+
+yum
+-> パッケージ管理ツール
+```
+
+* [【 sudo 】コマンド――スーパーユーザー（rootユーザー）の権限でコマンドを実行する](https://www.atmarkit.co.jp/ait/articles/1611/28/news036.html)
+* [【yum入門】yumとは何か？Linuxにおけるyumとrpmの違い](https://uxmilk.jp/9715)
+
+## test
+
 * [VPCのネットワークまわりをもう一度（超優良記事、VPCがめっちゃわかりやすい）](https://qiita.com/ryosukes/items/9ad289e1d673899fc628)
 * [AWSのVPCって何？メリットや使えるシーンなど徹底解説！](https://techplay.jp/column/541)
 * [AWS のネットワーク設計入門](https://d1.awsstatic.com/events/jp/2017/summit/slide/D2T3-5.pdf)
