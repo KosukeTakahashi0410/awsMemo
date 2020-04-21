@@ -1,4 +1,4 @@
-[無料で使えるAWSの初期トレーニングまとめ](https://techblog.nhn-techorus.com/archives/885)
+[無料で使えるAWSの初期トレーニングまとめ](https://techblog.nhn-techorus.com/archives/885)  
 Adachiさんアドバイス -> 失敗から勉強していこう、そこから聞いたりなんだで勉強していこう！  
 
 # awsMemo
@@ -70,11 +70,11 @@ EC2でホスティングをしなきゃいけないけど、それをいろい�
 いろいろ設定がすっ飛ばせる  
 
 ## Spring bootでapplication.propertiesを環境に合わせるやつ
-[Spring Bootでapplication.propertiesを環境ごとに切り替える方法](https://intellectual-curiosity.tokyo/2019/04/29/spring-boot%E3%81%A7application-properties%E3%82%92%E7%92%B0%E5%A2%83%E3%81%94%E3%81%A8%E3%81%AB%E5%88%87%E3%82%8A%E6%9B%BF%E3%81%88%E3%82%8B%E6%96%B9%E6%B3%95/)
+[Spring Bootでapplication.propertiesを環境ごとに切り替える方法](https://intellectual-curiosity.tokyo/2019/04/29/spring-boot%E3%81%A7application-properties%E3%82%92%E7%92%B0%E5%A2%83%E3%81%94%E3%81%A8%E3%81%AB%E5%88%87%E3%82%8A%E6%9B%BF%E3%81%88%E3%82%8B%E6%96%B9%E6%B3%95/)  
 要は二つの環境のためにファイルを作ればいいってわけ  
 
 ## Spring bootをjarファイルにするやつ
-[「Gradle」Spring Bootアプリケーションをビルドしてみる](http://a4dosanddos.hatenablog.com/entry/2018/12/01/115030)
+[「Gradle」Spring Bootアプリケーションをビルドしてみる](http://a4dosanddos.hatenablog.com/entry/2018/12/01/115030)  
 
 ```
 gradle bootjar
@@ -85,7 +85,8 @@ java -jar ********.jar
 ```
 
 ## apache使い方
-[apacheの起動,停止,再起動に関するまとめ](https://qiita.com/rimoenic/items/81385e08cf772ae5cfe4)
+[apacheの起動,停止,再起動に関するまとめ](https://qiita.com/rimoenic/items/81385e08cf772ae5cfe4)  
+[AWSにApache入れて、ブラウザから「Public IP」にアクセスしたい。](https://qiita.com/mochizukikotaro/items/2fbaa492776840db05f8)  
 
 ```
 sudo service httpd
