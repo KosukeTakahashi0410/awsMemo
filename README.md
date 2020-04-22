@@ -140,7 +140,20 @@ yum
 [create-react-appで環境変数を設定したり切り替えたりする方法](https://sumii.io/posts/create-react-app-env-setup/)  
 .env.productionと.env.developmentに分ける  
 
+## react appをさっとデプロイする方法
+[Amazon S3でSPAをサクッと公開する](https://qiita.com/kiyokiyo_kzsby/items/77bdb81a1ce1852b30ca)  
+上のパケットポリシーまで  
+わりとやることは単純
 
+```
+reactのビルド
+yarn run build
+
+ビルドしたファイル（/build以下）をS3に打ち込む
+☆ここでS3直下にindex.htmlがないと404 Bad Requestになる
+
+完成
+```
 
 * [VPCのネットワークまわりをもう一度（超優良記事、VPCがめっちゃわかりやすい）](https://qiita.com/ryosukes/items/9ad289e1d673899fc628)
 * [AWSのVPCって何？メリットや使えるシーンなど徹底解説！](https://techplay.jp/column/541)
