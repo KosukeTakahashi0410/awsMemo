@@ -39,6 +39,9 @@ VPCによって作られているCIDRブロックを分割したネットワー�
 直接外部ネットワークにつながっている**パブリックサブネット**  
 直接外部ネットワークにつながっていない**プライベートサブネット**がある  
 IPアドレスを割り当てることで、データ送信量をいじる  
+* [サブネット (subnet)](https://wa3.i-3-i.info/word11973.html)
+* [サブネットマスク (subnet mask)](https://wa3.i-3-i.info/word11975.html)
+* [CIDR](https://wa3.i-3-i.info/word11989.html)
 
 
 ## CIDR
