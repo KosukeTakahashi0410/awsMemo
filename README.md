@@ -1,3 +1,17 @@
+## コマンドメモ
+
+```
+AWS 接続
+ssh ec2-user@54.238.171.237 -i ~/.ssh/takahashikouske-key.pem
+exit
+
+ファイル送る
+sftp -i ~/.ssh/takahashikouske-key.pem ec2-user@54.238.171.237
+put <ファイル名>
+quit
+
+```
+
 [無料で使えるAWSの初期トレーニングまとめ](https://techblog.nhn-techorus.com/archives/885)  
 Adachiさんアドバイス -> 失敗から勉強していこう、そこから聞いたりなんだで勉強していこう！  
 
