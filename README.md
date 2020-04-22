@@ -141,6 +141,7 @@ yum
 .env.productionと.env.developmentに分ける  
 
 ## react appをさっとデプロイする方法
+[npmパッケージのserveで立てたローカルサーバーでReact Appを確認する方法](https://qiita.com/tktktktk/items/bd40409e84aaff1f43c5)  
 [Amazon S3でSPAをサクッと公開する](https://qiita.com/kiyokiyo_kzsby/items/77bdb81a1ce1852b30ca)  
 上のパケットポリシーまで  
 わりとやることは単純
