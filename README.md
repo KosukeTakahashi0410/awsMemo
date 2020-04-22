@@ -12,6 +12,18 @@ quit
 
 ```
 
+```
+ビルド（プロダクション環境で）
+yarn run build
+
+（serveの追加）
+yarn global add serve
+もしかするとglobalが必要かも
+
+（serveを使って起動）
+serve -s build -p 3000
+```
+
 [無料で使えるAWSの初期トレーニングまとめ](https://techblog.nhn-techorus.com/archives/885)  
 Adachiさんアドバイス -> 失敗から勉強していこう、そこから聞いたりなんだで勉強していこう！  
 
@@ -124,7 +136,11 @@ yum
 * [【 sudo 】コマンド――スーパーユーザー（rootユーザー）の権限でコマンドを実行する](https://www.atmarkit.co.jp/ait/articles/1611/28/news036.html)
 * [【yum入門】yumとは何か？Linuxにおけるyumとrpmの違い](https://uxmilk.jp/9715)
 
-## test
+## create-react-appの環境変数を変える方法
+[create-react-appで環境変数を設定したり切り替えたりする方法](https://sumii.io/posts/create-react-app-env-setup/)  
+.env.productionと.env.developmentに分ける  
+
+
 
 * [VPCのネットワークまわりをもう一度（超優良記事、VPCがめっちゃわかりやすい）](https://qiita.com/ryosukes/items/9ad289e1d673899fc628)
 * [AWSのVPCって何？メリットや使えるシーンなど徹底解説！](https://techplay.jp/column/541)
