@@ -10,6 +10,8 @@ sftp -i ~/.ssh/takahashikouske-key.pem ec2-user@54.238.171.237
 put <ファイル名>
 quit
 
+RDSに入る（この後パスワード）
+mysql -h <dbエンドポイント> -P 3306 -u admin -p
 ```
 
 ```
@@ -155,6 +157,29 @@ yarn run build
 
 完成
 ```
+
+## MySQL
+* [AWSのEC2からRDSに接続してmySQLを操作。](https://photo-tea.com/p/aws-ec2-to-rds-connection/#rds%E3%81%AEmysql%E3%81%AB%E6%8E%A5%E7%B6%9A%E3%81%99%E3%82%8B)
+* [よく使うMySQLコマンド集](https://qiita.com/CyberMergina/items/f889519e6be19c46f5f4)
+* [MySQLでSELECTを使ってデータを取得・確認する方法【初心者向け】](https://techacademy.jp/magazine/5120)
+* [データを削除する(DELETE文)](https://www.dbonline.jp/mysql/insert/index10.html)
+
+データが入っていて、変な動作をすることがあるので、そういう時はデータベースの中身を見ような
+
+```
+データベース一覧
+show databases;
+
+データベースの中へ
+use <dbname>;
+
+テーブルを見る
+show tables;
+
+テーブルの中身を見る
+select * from <table name>
+```
+
 
 * [VPCのネットワークまわりをもう一度（超優良記事、VPCがめっちゃわかりやすい）](https://qiita.com/ryosukes/items/9ad289e1d673899fc628)
 * [AWSのVPCって何？メリットや使えるシーンなど徹底解説！](https://techplay.jp/column/541)
