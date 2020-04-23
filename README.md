@@ -179,4 +179,8 @@ yarn run build
 * [見ながらやろう! AWSを始めよう -VPC構築編-](https://qiita.com/nago3/items/f5badeb4f7e5c32b0540)
 * [Amazon RDS for MySQLインスタンス作成手順](https://qiita.com/na0AaooQ/items/7c69a88c80f1efb4cad3)
 * [draw.ioでAWSのインフラ構成図を書く](https://qiita.com/nave-m/items/68425f476b254a1a47b0)
+* [localhost:8080を使用しているプロセスを調べてkillする方法。](https://qiita.com/rasedevapp/items/8a5df9e865da829deed9)
+* []()
+* []()
+* []()
 * []()
