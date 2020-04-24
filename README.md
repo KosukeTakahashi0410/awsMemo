@@ -5,6 +5,9 @@ AWS 接続
 ssh ec2-user@54.238.171.237 -i ~/.ssh/takahashikouske-key.pem
 exit
 
+1cの方
+ssh ec2-user@52.69.201.157 -i ~/.ssh/takahashikouske-key.pem
+
 ファイル送る
 sftp -i ~/.ssh/takahashikouske-key.pem ec2-user@54.238.171.237
 put <ファイル名>
