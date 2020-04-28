@@ -15,6 +15,7 @@ quit
 
 RDSに入る（この後パスワード）
 mysql -h <dbエンドポイント> -P 3306 -u admin -p
+mysql -h takahashikosuke-mysql-5-7.c35xcnhiknum.ap-northeast-1.rds.amazonaws.com -P 3306 -u admin -p
 ```
 
 ```
