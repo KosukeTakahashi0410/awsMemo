@@ -12,6 +12,8 @@ ssh ec2-user@52.69.201.157 -i ~/.ssh/takahashikouske-key.pem
 sftp -i ~/.ssh/takahashikouske-key.pem ec2-user@54.238.171.237
 put <ファイル名>
 quit
+1cのほう
+sftp -i ~/.ssh/takahashikouske-key.pem ec2-user@52.69.201.157
 
 RDSに入る（この後パスワード）
 mysql -h <dbエンドポイント> -P 3306 -u admin -p
