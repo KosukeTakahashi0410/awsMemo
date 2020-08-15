@@ -2,18 +2,18 @@
 
 ```
 AWS 接続
-ssh ec2-user@54.238.171.237 -i ~/.ssh/takahashikouske-key.pem
+ssh ec2-user@13.231.121.168 -i ~/.ssh/takahashikouske-key.pem
 exit
 
 1cの方
-ssh ec2-user@52.69.201.157 -i ~/.ssh/takahashikouske-key.pem
+ssh ec2-user@18.183.108.114 -i ~/.ssh/takahashikouske-key.pem
 
 ファイル送る
-sftp -i ~/.ssh/takahashikouske-key.pem ec2-user@54.238.171.237
+sftp -i ~/.ssh/takahashikouske-key.pem ec2-user@13.231.121.168
 put <ファイル名>
 quit
 1cのほう
-sftp -i ~/.ssh/takahashikouske-key.pem ec2-user@52.69.201.157
+sftp -i ~/.ssh/takahashikouske-key.pem ec2-user@18.183.108.114
 
 RDSに入る（この後パスワード）
 mysql -h <dbエンドポイント> -P 3306 -u admin -p
